@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <div class="left-login">
+          <div class="main-login">
+        <div class="left-login">
             <h1>FOME ZERO</h1>
             <img src={fz} class="left-login-image "alt="Logo Fome Zero"></img>
         </div>
@@ -21,7 +22,8 @@ function App() {
                 </div>
                 <button class="btn-login"> Login</button>
             </div>
-         </div>
+        </div>
+</div>
     </div>
   );
 }
